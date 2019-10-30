@@ -1,0 +1,8 @@
+node_modules
+.vscode
+package.json
+package-lock.json
+.eslintrc.json
+hls-stream.bat
+old
+temp
