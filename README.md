@@ -19,4 +19,6 @@ Play stream: ```mpv http://localhost:8080/```
 
 Transcode to 2MB/s stream: ```node hls-stream.js "Z:\Videos\VideoToStream.mkv" -v libx264 --vbitrate 2M```  
 
-Use ./temp for stream files: ```node hls-stream.js "Z:\Videos\VideoToStream.mkv" -d temp"```
+Use ./temp for stream files: ```node hls-stream.js "Z:\Videos\VideoToStream.mkv" -d temp"```  
+
+Restream from online stream: ```node hls-stream.js "http://urlofstream/stream.m3u8"```  
